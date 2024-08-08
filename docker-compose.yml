@@ -3,7 +3,7 @@ services:
     image: "louislam/uptime-kuma"
     container_name: "uptime-kuma"
     ports:
-      - "8006:3001"
+      - "3002:3001"
     volumes:
       - ./data:/app/data
     restart: unless-stopped
